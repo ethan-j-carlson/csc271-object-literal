@@ -15,7 +15,7 @@ var cap = {
 		for (let i = 0; i < count; i++) {
 			res += "*"
 		}
-		return res
+		return res;
 	},
 	
 }
@@ -33,9 +33,6 @@ function displayHoroscopeCard(cardNum, img, sign, birthday, horoscope, stars) {
 };
 
 
-
-
-
-
-
 displayTitle();
+
+displayHoroscopeCard(cap.cardNum, cap.img, cap.sign, cap.birthday, cap.horoscope, cap.stars(1));
