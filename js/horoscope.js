@@ -4,6 +4,22 @@ function displayTitle() {
 	contentDiv.innerHTML += title;
 };
 
+var cap = {
+	cardNum: 0,
+	img: "capricorn.png",
+	sign: "Capricorn",
+	birthday: "*insert dates here*",
+	horoscope: "Today will be the day ever",
+	stars: function (count) {
+		res = ""
+		for (let i = 0; i < count; i++) {
+			res += "*"
+		}
+		return res
+	},
+	
+}
+
 
 
 function displayHoroscopeCard(cardNum, img, sign, birthday, horoscope, stars) {
